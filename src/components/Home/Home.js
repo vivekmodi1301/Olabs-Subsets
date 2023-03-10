@@ -27,22 +27,28 @@ export default function Home() {
   };
 
   return (
-    <div className="container">
-      <h1>Subsets Virtual Lab</h1>
-      <form>
-        <label htmlFor="numbers">Enter a list of numbers:</label>
-        <input type="text" id="numbers" />
-        <button type="button" onClick={handleGenerateSubsets}>
-          Generate Subsets
-        </button>
-      </form>
+    <>
+      <div className="container">
+        <h1>Subsets Virtual Lab</h1>
+        <form>
+          <label htmlFor="numbers">
+            Enter a list of numbers: (in this order : a b c)
+          </label>
+          <input type="text" id="numbers" className="numberInput" />
+          <button type="button" onClick={handleGenerateSubsets}>
+            Generate Subsets
+          </button>
+        </form>
       <div id="subsets">
-        <ul>
+        <div className="containerSub">
           {subsets.map((subset, index) => (
-            <li key={index}>{subset.join(", ")}</li>
+            <div className="card" key={index}>
+              {subset.join(" \n\n")}
+            </div>
           ))}
-        </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
