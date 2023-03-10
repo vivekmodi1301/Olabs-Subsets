@@ -7,7 +7,7 @@
 
 h1 {
   text-align: center;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
 }
 
@@ -17,7 +17,7 @@ form {
 
 label {
   display: block;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 input[type="text"] {

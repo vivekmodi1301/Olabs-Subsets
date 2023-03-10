@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Great+Vibes&family=Poppins:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -41,7 +41,8 @@
 .bg-image {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-kids-background-picture-image_693502.jpg");
+  /* background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-kids-background-picture-image_693502.jpg"); */
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/minimalist-flat-style-mathematics-subject-for-high-school-9th-grade-geometry-geometric-powerpoint-background_1e7eac9470__960_540.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

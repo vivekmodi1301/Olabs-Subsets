@@ -32,7 +32,7 @@ export default function Home() {
         <h1>Subsets Virtual Lab</h1>
         <form>
           <label htmlFor="numbers">
-            Enter a list of numbers: (in this order : a b c)
+            <h3>Enter a list of numbers: (in this order : a b c)</h3> 
           </label>
           <input type="text" id="numbers" className="numberInput" />
           <button type="button" onClick={handleGenerateSubsets}>
