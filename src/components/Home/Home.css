@@ -55,8 +55,9 @@ button:hover {
   color: white;
   padding: 10px 10px;
   margin: 10px 10px;
-  background-color: #3e8e41;
+  background-color: #3e628e;
   text-align: center;
+  justify-content: center;
 }
 .containerSub {
   display: grid;
