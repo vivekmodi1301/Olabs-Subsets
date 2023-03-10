@@ -51,6 +51,8 @@ button:hover {
 
 .numberInput {
   padding: 10px 10px;
+  width: 300px;
+  /* height: 30px; */
   margin: 20px 20px;
 }
 
@@ -82,4 +84,17 @@ button:hover {
   justify-content: center;
   font-size: 4rem;
   border: 2.5px solid black;
+}
+
+.bg-image {
+  width: 100vw;
+  min-height: 110vh;
+  max-height: 100%;
+  /* height: 100vh; */
+  /* background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-kids-background-picture-image_693502.jpg"); */
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/minimalist-flat-style-mathematics-subject-for-high-school-9th-grade-geometry-geometric-powerpoint-background_1e7eac9470__960_540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* opacity: 0.8; */
 }
