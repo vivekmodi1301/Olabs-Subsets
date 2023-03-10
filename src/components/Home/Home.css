@@ -1,0 +1,42 @@
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.subsets {
+	display: none;
+	margin-top: 20px;
+}
