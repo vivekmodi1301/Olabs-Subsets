@@ -43,7 +43,7 @@ export default function Home() {
         <div className="containerSub">
           {subsets.map((subset, index) => (
             <div className="card" key={index}>
-              {subset.join(" \n\n")}
+              {subset.join(" ")}
             </div>
           ))}
           </div>
